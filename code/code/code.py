@@ -46,7 +46,7 @@ TOKENIZER = tokenizers.ByteLevelBPETokenizer(
     lowercase=True,
     add_prefix_space=True
 )
-
+#hello hello
 # %% [code]
 class TweetModel(transformers.BertPreTrainedModel):
     def __init__(self, conf):
